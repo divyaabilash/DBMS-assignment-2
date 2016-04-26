@@ -1,0 +1,11 @@
+insert into Business_Category values('BCT1','Amusement Parks');
+insert into Business_Category values('BCT2','Gymnastics');
+insert into Business_Category values('BCT3','Architects');
+insert into Business_Category values('BCT4','Windshield');
+insert into Business_Category values('BCT5','Breakfast & Brunch');
+insert into Business_Category values('BCT6','Career Counseling');
+insert into Business_Category values('BCT7','Coffee Shops');
+insert into Business_Category values('BCT8','Food and More');
+insert into Business_Category values('BCT9','Pool Cleaners');
+insert into Business_Category values('BCT10','Bars');
+insert into Business_Category values('BCT11','Burgers');
