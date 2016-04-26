@@ -27,7 +27,7 @@ CREATE TABLE Reviews(
 Review_Id varchar(50) PRIMARY KEY,
 Rating NUMBER(5) NOT NULL,
 Author varchar(5) NOT NULL,
-Publish_Date date NOT NULL,
+Publish_Date TIMESTAMP NOT NULL,
 Friend_list_vote varchar(5) NOT NULL,
 Review_type varchar(5) NOT NULL,
 Business_Id varchar(5) NOT NULL,
