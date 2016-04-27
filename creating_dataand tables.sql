@@ -38,19 +38,19 @@ FOREIGN KEY (Author) REFERENCES Yelp_User(Yelp_Id),
 FOREIGN KEY (Business_Id) REFERENCES Business(Business_Id)
 );
 
-insert into Yelp_User values ('Y1','john@yahoo.com','LAKECITY FL 32056',TO_DATE('12/12/92','MM/DD/YY'),'M','John','Smith');
-insert into Yelp_User values ('Y2','juan@gmail.com','Adak,AK 99546',TO_DATE('2/7/88','MM/DD/YY'),'M','Juan','Carlos');
-insert into Yelp_User values ('Y3','Jane@gmail.com','VERNON HILLS,IL 60061',TO_DATE('6/1/80','MM/DD/YY'),'F','Jane','Chapel');
-insert into Yelp_User values ('Y4','adi@yahoo.com','SAN FRANCISCO,CA 94102',TO_DATE('4/12/64','MM/DD/YY'),'M','Aditya','Awasthi');
-insert into Yelp_User values ('Y5','james@hotmail.com','NEW YORK ,NY 10010',TO_DATE('5/5/91','MM/DD/YY'),'M','James','Williams');
-insert into Yelp_User values ('Y6','mike@yahoo.com','CEDAR FALLS, NC 27230',TO_DATE('3/1/88','MM/DD/YY'),'M','Mike','Brown');
-insert into Yelp_User values ('Y7','bob@yahoo.com','FISHERS ISLAND,NY 06390',TO_DATE('2/19/70','MM/DD/YY'),'M','Bob ','Jones');
-insert into Yelp_User values ('Y8','wei@gmail.com','LAS VEGAS,NV 89030',TO_DATE('3/18/75','MM/DD/YY'),'F','Wei ','Zhang');
-insert into Yelp_User values ('Y9','mark@gmail.com','LOS ANGELES,CA 90007',TO_DATE('11/2/45','MM/DD/YY'),'M','Mark','Davis');
-insert into Yelp_User values ('Y10','daniel@yahoo.com','CALDWELL,NJ 07004',TO_DATE('5/10/84','MM/DD/YY'),'M','Daniel','Garcia');
-insert into Yelp_User values ('Y11','maria@hotmail.com','LOS ANGELES,CA 90007',TO_DATE('8/12/85','MM/DD/YY'),'F','Maria','Rodriguez');
-insert into Yelp_User values ('Y12','freya@yahoo.com','CLIFFSIDE PARK ,NJ 07010',TO_DATE('10/5/90','MM/DD/YY'),'F','Freya','Wilson');
-insert into Yelp_User values ('Y13','kell@gmail.com','REDONDO BEACH,CA 90278',TO_DATE('11/27/95','MM/DD/YY'),'F','Kelley','Abraham');        
+insert into Yelp_User values ('Y1','john@yahoo.com','LAKECITY FL 32056',TO_DATE('12/12/1992','MM/DD/YYYY'),'M','John','Smith');
+insert into Yelp_User values ('Y2','juan@gmail.com','Adak,AK 99546',TO_DATE('2/7/1988','MM/DD/YYYY'),'M','Juan','Carlos');
+insert into Yelp_User values ('Y3','Jane@gmail.com','VERNON HILLS,IL 60061',TO_DATE('6/1/1980','MM/DD/YYYY'),'F','Jane','Chapel');
+insert into Yelp_User values ('Y4','adi@yahoo.com','SAN FRANCISCO,CA 94102',TO_DATE('4/12/1964','MM/DD/YYYY'),'M','Aditya','Awasthi');
+insert into Yelp_User values ('Y5','james@hotmail.com','NEW YORK ,NY 10010',TO_DATE('5/5/1991','MM/DD/YYYY'),'M','James','Williams');
+insert into Yelp_User values ('Y6','mike@yahoo.com','CEDAR FALLS, NC 27230',TO_DATE('3/1/1988','MM/DD/YYYY'),'M','Mike','Brown');
+insert into Yelp_User values ('Y7','bob@yahoo.com','FISHERS ISLAND,NY 06390',TO_DATE('2/19/1970','MM/DD/YYYY'),'M','Bob ','Jones');
+insert into Yelp_User values ('Y8','wei@gmail.com','LAS VEGAS,NV 89030',TO_DATE('3/18/1975','MM/DD/YYYY'),'F','Wei ','Zhang');
+insert into Yelp_User values ('Y9','mark@gmail.com','LOS ANGELES,CA 90007',TO_DATE('11/2/1945','MM/DD/YYYY'),'M','Mark','Davis');
+insert into Yelp_User values ('Y10','daniel@yahoo.com','CALDWELL,NJ 07004',TO_DATE('5/10/1984','MM/DD/YYYY'),'M','Daniel','Garcia');
+insert into Yelp_User values ('Y11','maria@hotmail.com','LOS ANGELES,CA 90007',TO_DATE('8/12/1985','MM/DD/YYYY'),'F','Maria','Rodriguez');
+insert into Yelp_User values ('Y12','freya@yahoo.com','CLIFFSIDE PARK ,NJ 07010',TO_DATE('10/5/1990','MM/DD/YYYY'),'F','Freya','Wilson');
+insert into Yelp_User values ('Y13','kell@gmail.com','REDONDO BEACH,CA 90278',TO_DATE('11/27/1995','MM/DD/YYYY'),'F','Kelley','Abraham');        
 
 insert into Business_Category values('BCT1','Amusement Parks');
 insert into Business_Category values('BCT2','Gymnastics');
