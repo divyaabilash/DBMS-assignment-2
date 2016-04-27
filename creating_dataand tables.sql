@@ -13,8 +13,8 @@ Business_Cat_Id varchar(50) PRIMARY KEY,
 Name varchar(50) NOT NULL);
 
 CREATE TABLE Business(
-Business_Id varchar(50) PRIMARY KEY,
-Business_Name varchar(50) NOT NULL,
+Business_Id varchar(50) PRIMARY KEY
+,Business_Name varchar(50) NOT NULL,
 City varchar(25) NOT NULL,
 State varchar(50) NOT NULL,
 Phone_No varchar(50) NOT NULL,
