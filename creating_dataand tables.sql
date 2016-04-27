@@ -19,7 +19,7 @@ City varchar(25) NOT NULL,
 State varchar(50) NOT NULL,
 Phone_No varchar(50) NOT NULL,
 Status varchar(1) CONSTRAINT open check (Status = 'T' or Status = 'F') NOT NULL,
-Business_Cat_Id varchar(50), 
+Business_Cat_Id varchar(50) NOT NULL, 
 FOREIGN KEY (Business_Cat_Id)REFERENCES Business_Category(Business_Cat_Id)
 );
 
